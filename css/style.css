@@ -89,12 +89,14 @@ Set background color white
     background-color:#333333;
      border: 1px solid #555555;
 }
+
+
 .grid1{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 0.5rem;
     background-color: #333333;
-    margin:  0 1rem;
+    
 }
 
 .sashi{
