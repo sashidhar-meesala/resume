@@ -1,0 +1,179 @@
+/*General
+
+  Change the font type of the entire website to Arial
+  Set the line-height of the words to  1.5rem;
+  Align all the text to the center
+  increase the font-size of all the words 1.1rem;
+  change the background-color  of the entire web page to: #333333;
+
+ */
+
+ /* 
+ Headings (h1-h6)
+ Change the text of all the headings to uppercase
+ */
+
+
+/*
+links
+ remove all the underline  of the links
+
+*/
+
+/*
+  header
+
+  -setting the color of h1 and paragraph to white
+  -set height:450px;
+  set a background image : header-bg.jpeg
+  bold one word in the paragraph
+  italicize one word in the paragraph
+*/
+
+
+/*
+  button
+
+  color of text white
+  background-color #333333
+  border 1px solid #555555
+*/
+
+/*
+  button hover state
+   background-color:#eaeaea;
+   color:#333333;
+*/
+
+/*
+Section- Working Experience
+
+Set background color #eaeaea
+*/
+
+
+/*
+Section- Working Details
+
+Set background color white
+*/
+
+/*
+  Employers  Sub-Section
+  background-color :#2690d4
+  White text
+*/
+/*
+  Contact Sub-Section
+  Background-color:white
+  Black Text
+*/
+
+
+/*
+  footer
+  background color :black
+  Text color white
+*/
+
+/*
+  footer font awesome icons
+  fb,insta,twitter,linkin
+*/
+
+
+
+
+
+.button{
+    background-color:#333333;
+     border: 1px solid #555555;
+}
+.grid1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 0.5rem;
+    background-color: #333333;
+    margin:  0 1rem;
+}
+
+.sashi{
+    
+    text-align: center;
+    background-image: url("../img/header-bg.jpeg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 50vh;
+    padding: 4rem 0 0 0;
+    
+    color:white;
+
+}
+
+.sde{
+    text-align: center;
+    margin: 1.5rem; 
+    padding: 0 0.5rem;;
+
+}
+
+.images{
+    max-width: 100%;
+}
+
+.grid2{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    
+
+}
+
+.employers{
+    background-color:rgb(17, 147, 207);
+    text-align: center;
+    color: white;
+    
+    
+}
+
+.programming{
+    text-align: center;
+    background-color: white;
+}
+
+.Libraries{
+    text-align: center;
+    background-color: white;
+}
+
+.softwaretools{
+    text-align: center;
+    background-color: white;
+}
+
+.contactme{
+    text-align: center;
+  
+}
+.grid3{
+display: grid;
+grid-template-columns: 1fr 1fr;
+background-color: black;
+color: white;
+    
+}
+.createdby{
+    text-align: center;
+}
+
+.icons{
+    text-align: center;
+   
+    
+}
+
+.i{
+    height: 25%;
+}
+
