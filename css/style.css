@@ -135,6 +135,7 @@ Set background color white
     background-color:rgb(17, 147, 207);
     text-align: center;
     color: white;
+    padding: 0 1rem;;
     
     
 }
@@ -167,6 +168,8 @@ color: white;
 }
 .createdby{
     text-align: center;
+    padding: 1rem;
+    font-size: 1rem;
 }
 
 .icons{
@@ -175,7 +178,32 @@ color: white;
     
 }
 
-.i{
-    height: 25%;
+.icons{
+    font-size: 2rem;
+    padding:1.5rem;
 }
 
+
+
+
+
+
+/*for tablet*/
+@media screen and (max-width: 768px) and (min-width: 501px) {
+  .grid1{
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width:500px){
+  .grid1{
+    grid-template-columns: 1fr;
+  }
+  .grid2{
+    grid-template-columns: 1fr;
+  }
+
+  .grid3{
+    grid-template-columns: 1fr;
+  }
+}
